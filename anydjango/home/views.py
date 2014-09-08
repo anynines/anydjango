@@ -10,5 +10,6 @@ class HomeView(TemplateView):
         context = Context({
             'greeting': 'Hello Python, welcome to anynines.com !',
             'python_version': cur_version,
+            'github_url': 'https://github.com/anynines/anydjango'
         })
         return self.render_to_response(context)
