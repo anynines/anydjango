@@ -5,4 +5,4 @@ applications:
   instances: 1
   host: anydjango
   path: .
-  buildpack: https://github.com/heroku/heroku-buildpack-python
+  buildpack: python_buildpack
